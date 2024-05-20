@@ -2,9 +2,10 @@
 
 while(have_posts()) {
     the_post(); ?>
-<H1><a href="<?php the_permalink(  ); ?>"><?php  the_title(); ?></a></H1>
+    <h1>This is a page, Not a post.</h1>
+<H1><?php  the_title(); ?></H1>
 <?php the_content(); ?>
-<hr>
+
     <?php
 
 
