@@ -1,14 +1,14 @@
 <?php
-function myFirstFunction($data) {
-    echo "<p>".$data."</p>";
+
+$names = array("Brad", "John", "Mike", "james");
+
+$count = 0;
+while($count < count($names)) {
+echo "<li>Hi My Name is $names[$count].</li>";
+$count ++;
 }
-
-myFirstFunction("Hey Bro");
-myFirstFunction("Nice");
-
 
 ?>
 
 
-<h1><?php bloginfo('name'); ?></h1>
-<h1><?php bloginfo('description'); ?></h1>
+<p> Hi, My name is <?php echo $names[0] ?>.</p>
