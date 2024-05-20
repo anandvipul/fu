@@ -3,3 +3,7 @@ Theme Name: Fictional University
 Author: Course from Udemy
 Version: 1.0
 */
+
+body {
+    color: teal;
+}
