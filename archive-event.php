@@ -3,28 +3,15 @@
 
 get_header();
 
+pageBanner( array(
+	"title" => "All Events",
+	"subtitle" => "See What is going on in our World.",
+) );
+
 
 ?>
 
-<div class="page-banner">
-	<div class="page-banner__bg-image"
-		style="background-image: url(<?php echo get_theme_file_uri( "/images/ocean.jpg" ) ?>)"></div>
-	<div class="page-banner__content container container--narrow">
-		<h1 class="page-banner__title"><?php
-		// if (is_category()) {
-		//     single_cat_title(  );
-		// }
-		// if (is_author()) {
-		//     echo 'Posts By : '; 
-		//     the_author();
-		// }
-		// the_archive_title( );
-		?>All Events</h1>
-		<div class="page-banner__intro">
-			<p><?php /* the_archive_description(); */ ?>See What is going on in our World.</p>
-		</div>
-	</div>
-</div>
+
 
 <div class="container container--narrow page-section">
 	<?php
